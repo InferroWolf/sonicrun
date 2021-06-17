@@ -124,7 +124,7 @@ function spawnObstacles() {
               break;
     }
         
-    obstacle.velocityX = -(6 + 3*score/100);
+    obstacle.velocityX = -(1 + 2*score/100);
     
     //assign scale and lifetime to the obstacle           
     obstacle.scale = 0.1;
